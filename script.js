@@ -1,5 +1,6 @@
 //Funcionalidad de la selección del botón abrir y cerrar de menú
 const nav = document.querySelector("#nav");
+const navElems = document.querySelectorAll(".navegacion__elemento a");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
 
@@ -9,6 +10,13 @@ abrir.addEventListener("click", () => {
 
 cerrar.addEventListener("click", () => {
     nav.classList.remove("visible");
+})
+
+//Función para iterar en cada enlace de la barra de navegación y cerrar el menú tipo hamburguesa
+navElems.forEach(elem => {
+    elem.addEventListener("click", () => {
+        nav.classList.remove("visible");
+    })
 })
 
 // Función para abrir el cliente de correo con el correo predefinido
