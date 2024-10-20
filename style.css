@@ -498,14 +498,26 @@ button:hover {
         display: none;
     }
 
+    .aficiones__elemento{
+        width:60%;
+    }
+    /* agregando aficiones_logo */
+    .aficiones_logo{
+        padding-left: 10%;
+    }
+    /* agregando  .aficiones__nombre: text-align center*/
+    .aficiones__nombre{
+        text-align: center;
+    }
+
     .proyectos__lista{
         padding-left: 0;
     }
 
+    
     .proyectos_imagen{
-        margin-left: 10%;
         height: 180px;
-        width: 200px;
+        width: 100%;
     }
 
     .formacion__lista{
@@ -595,6 +607,19 @@ button:hover {
         display: none;
     }
 
+    .aficiones__elemento{
+        width:60%;
+    }
+    /* agregando aficiones_logo */
+    .aficiones_logo{
+        padding-left: 10%;
+        width: 100px;
+    }
+    /* agregando  .aficiones__nombre: text-align center*/
+    .aficiones__nombre{
+        text-align: center;
+    }
+
     .proyectos__lista{
         padding-left: 0px;
     }
@@ -677,10 +702,23 @@ button:hover {
         display: none;
     }
 
+    .aficiones__elemento{
+        width:30%;
+    }
+    /* agregando aficiones_logo */
+    .aficiones_logo{
+        width: 70%;
+        padding-left: 15px;
+    }
+    /* agregando  .aficiones__nombre: text-align center*/
+    .aficiones__nombre{
+        text-align: center;
+    }
+
     .proyectos_imagen{
         height: 350px;
-        width: 350px;
-        margin-left: 20px;
+        width: 100%;
+        margin-left: 0px;
     }
     
     .formacion__lista{
@@ -871,6 +909,11 @@ button:hover {
 
     .bi-file-earmark-person{
         display: none;
+    }
+
+    .aficiones__elemento{
+        width:120px;
+        text-align: justify;
     }
 
 }
