@@ -281,12 +281,14 @@ a:hover {
 .proyectos_item{
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    /* contenedor en 600px */
+    width: 600px;
 }
 
 .proyectos_imagen{
     height: 400px;
-    width: 515px;
+    /* ancho de la imagen al100% */
+    width: 100%
 }
 
 .proyectos_texto{
@@ -510,13 +512,18 @@ button:hover {
         text-align: center;
     }
 
+    .proyectos{
+        width: 250px;
+    }
+
     .proyectos__lista{
         padding-left: 0;
     }
 
-    
     .proyectos_imagen{
+        /* margin-left: 10%; */
         height: 180px;
+        /* width en un 100% */
         width: 100%;
     }
 
@@ -561,11 +568,6 @@ button:hover {
     #email{
         word-wrap: break-word;
     }
-
-    /* .contact__email{
-        display: block;
-        height: 120px;
-    } */
 }
 
 /* Dispositivos entre 376px a 424px */
@@ -625,9 +627,17 @@ button:hover {
     }
 
     .proyectos_imagen{
-        margin-left: 15%;
+        margin-left: 0px;
         height: 180px;
-        width: 200px;
+        width: 100%;
+    }
+
+    .proyectos_texto{
+        text-align: center;
+    }
+    /* Agregando  8% de padding-left*/
+    .proyecto_boton_enlace{
+        padding-left: 8%;
     }
 
     .formacion__lista{
@@ -698,6 +708,14 @@ button:hover {
         padding-left: 3%;
     }
 
+    .boton_icono{
+        display: none;
+    }
+
+    .boton_texto{
+        text-align: center;
+    }
+
     .bi-file-earmark-person{
         display: none;
     }
@@ -715,6 +733,11 @@ button:hover {
         text-align: center;
     }
 
+    .proyectos__lista{
+        padding-left: 0px;
+    }
+    /* width al 100% */
+    /* margin-left:0 */
     .proyectos_imagen{
         height: 350px;
         width: 100%;
@@ -787,7 +810,7 @@ button:hover {
     }
     
     .boton_enlace{
-        text-align: center;
+        text-align: start;
         width: 80px;
     }
 
