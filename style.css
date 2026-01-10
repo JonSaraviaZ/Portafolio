@@ -426,6 +426,11 @@ a:hover {
     align-items: center;
 }
 
+.certificado_img_ef{
+        height: 200px;
+        width: 500px;
+    }
+
 /*------------------------------ Sección de Contacto ---------------------------------*/
 .contact{
     display: flex;
@@ -621,6 +626,11 @@ button:hover {
         width: 250px;
     }
 
+    .certificado_img_ef{
+        height: 100px;
+        width: 250px;
+    }
+
     .contact__email__buttons{
         display: flex;
         flex-direction: column;
@@ -733,6 +743,12 @@ button:hover {
         width: 250px;
     }
 
+    .certificado_img_ef{
+        height: 100px;
+        width: 200px;
+    }
+
+
     .contact__email__buttons{
         display: flex;
         flex-direction: column;
@@ -842,6 +858,11 @@ button:hover {
         justify-content: center;
         align-items: center;
         padding-left: 0px;
+    }
+
+    .certificado_img_ef{
+        height: 100px;
+        width: 250px;
     }
 
     .formacion__icono{
@@ -1056,6 +1077,21 @@ button:hover {
         width:120px;
         text-align: justify;
     }
+
+    .certificado_img{
+        height: 200px;
+        width: 500px;
+    }
+
+}
+
+@media (min-width:1281px) and (max-width:2560px){
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+    height: 7vh;
+    width: 6vw;
+    border-radius: 10px;
+}
 
 }
 
