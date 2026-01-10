@@ -217,6 +217,18 @@ a:hover {
     /* width: 7%; */
 }
 
+.habilidades_logo_figma{
+    height: 14vh;
+    width: 6vw;
+    border-radius: 10px;
+}
+
+.habilidades_logo_bbdd{
+    height: 15vh;
+    width: 10vw;
+    border-radius: 10px;
+
+}
 .habilidades__nombre{
     text-align: center;
     font-size: 20px;
@@ -537,6 +549,12 @@ button:hover {
         padding-right: 10px;
     }
 
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+        width: 30vw;
+    }
+
+
     .boton_enlace{
         width: 80px;
         padding-left: 3%;
@@ -655,6 +673,11 @@ button:hover {
         padding-left: 3%;
     }
 
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+        width: 20vw;
+    }
+
     .bi-file-earmark-person{
         display: none;
     }
@@ -770,6 +793,11 @@ button:hover {
         text-align: center;
     }
 
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+        width: 20vw;
+    }
+
     .bi-file-earmark-person{
         display: none;
     }
@@ -871,6 +899,11 @@ button:hover {
     .boton_enlace{
         text-align: start;
         width: 80px;
+    }
+
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+        width: 13vw;
     }
 
     .bi-file-earmark-person{
@@ -991,6 +1024,11 @@ button:hover {
         width: 100%;
     }
 
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+        width: 13vw;
+    }
+
     /* .presentacion{
         z-index: 10;
     } */
@@ -1002,6 +1040,12 @@ button:hover {
         text-align: center;
         width: 80px;
         padding-left: 3%;
+    }
+
+    .habilidades_logo_figma,
+    .habilidades_logo_bbdd{
+        height: 14vh;
+        width: 10vw;
     }
 
     .bi-file-earmark-person{
