@@ -138,6 +138,7 @@ a:hover {
 }
 
 .presentacion__foto{
+    position: relative;
     height: 35%;
     width: 30%;
     border-radius: 5%;
@@ -146,6 +147,7 @@ a:hover {
     backdrop-filter: blur(10px); /* Desenfoque del fondo */
     border-radius: 15px; /* Coincide con el borde de la imagen */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para el relieve */
+    z-index: 1;
 }
 
 .botones{
@@ -220,6 +222,18 @@ a:hover {
     font-size: 20px;
 }
 
+.habilidades_logo_figma{
+    height: 12vh;
+    width: 7vw;
+    border-radius: 10px;
+}
+
+.habilidades_logo_mysql{
+    height: 12vh;
+    width: 10vw;
+    border-radius: 10px;
+}
+
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
 
@@ -285,10 +299,44 @@ a:hover {
     width: 600px;
 }
 
+.proyectos_imagen_container{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
 .proyectos_imagen{
     height: 400px;
     /* ancho de la imagen al100% */
     width: 100%
+}
+
+.proyectos_imagen_app{
+    height: 80vh;
+    margin-right: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.proyectos_imagen_container_edu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+
+}
+
+.proyectos_imagen_edu_1{
+    display: flex;
+    height: 40vh;
+    width: 80;
+}
+
+.proyectos_imagen_ed{
+    display: flex;
+    height: 40vh;
+    width: 40;
 }
 
 .proyectos_texto{
@@ -482,9 +530,11 @@ button:hover {
     }
 
     .presentacion__foto{
+        position: relative;
         height: 240px;
         width: 240px;
         margin-left: 80px;
+        z-index: 1;
     }
 
     .presentacion__titulo{
@@ -525,6 +575,10 @@ button:hover {
         height: 180px;
         /* width en un 100% */
         width: 100%;
+    }
+
+    .proyectos_imagen_container{
+        flex-wrap: wrap;
     }
 
     .formacion__lista{
@@ -640,6 +694,10 @@ button:hover {
         padding-left: 8%;
     }
 
+    .proyectos_imagen_container{
+        flex-wrap: wrap;
+    }
+
     .formacion__lista{
         padding-left: 0px;
     }
@@ -743,6 +801,11 @@ button:hover {
         width: 100%;
         margin-left: 0px;
     }
+
+    .proyectos_imagen_container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     
     .formacion__lista{
         display: flex;
@@ -818,6 +881,15 @@ button:hover {
         display: none;
     }
 
+    .proyectos_imagen_container{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .proyectos_imagen_edu_2{
+        width: 80%;
+    }
+
     .formacion__lista{
         display: flex;
         justify-content: center;
@@ -889,13 +961,14 @@ button:hover {
         flex-direction: column;
         align-items: end;
         gap: 1rem;
-        position: absolute;
+        position: fixed; 
         top: 0;
         right: 0;
         bottom:0;
         background: var(--color-de-fondo);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+        z-index: 9999;
     } 
 
     .navegacion.visible{
@@ -915,6 +988,10 @@ button:hover {
 
     .bi-file-earmark-person{
         display: none;
+    }
+
+    .proyectos_imagen_edu_2{
+        width: 90%;
     }
 
     /* .presentacion{
