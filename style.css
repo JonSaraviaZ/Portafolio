@@ -1088,10 +1088,9 @@ button:hover {
 @media (min-width:1281px) and (max-width:2560px){
     .habilidades_logo_figma,
     .habilidades_logo_bbdd{
-    height: 7vh;
+    height: 14vh;
     width: 6vw;
     border-radius: 10px;
 }
 
 }
-
