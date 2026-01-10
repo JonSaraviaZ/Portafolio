@@ -222,11 +222,6 @@ a:hover {
     font-size: 20px;
 }
 
-.habilidades_logo_figma{
-    height: 12vh;
-    width: 7vw;
-    border-radius: 10px;
-}
 
 .habilidades_logo_mysql{
     height: 12vh;
@@ -295,6 +290,7 @@ a:hover {
 .proyectos_item{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     /* contenedor en 600px */
     width: 600px;
 }
@@ -330,7 +326,7 @@ a:hover {
 .proyectos_imagen_edu_1{
     display: flex;
     height: 40vh;
-    width: 80;
+    width: 90;
 }
 
 .proyectos_imagen_ed{
@@ -887,7 +883,7 @@ button:hover {
     }
 
     .proyectos_imagen_edu_2{
-        width: 80%;
+        width: 90%;
     }
 
     .formacion__lista{
@@ -991,7 +987,8 @@ button:hover {
     }
 
     .proyectos_imagen_edu_2{
-        width: 90%;
+        height: 100%;
+        width: 100%;
     }
 
     /* .presentacion{
