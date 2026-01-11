@@ -208,13 +208,19 @@ a:hover {
 
 .habilidades__elemento{
     display: flex;
+    justify-content: center;
     flex-direction: column;
     /* height: 110px; */
-    width: 100px;
+    width: 320px;
     /* padding: 10px; */
     /* border-radius: 10px;
     /* text-align: center; */
     /* width: 7%; */
+}
+
+.habilidades_logo{
+    height: 90%;
+    width: 50vw;
 }
 
 .habilidades_logo_figma{
@@ -556,9 +562,9 @@ button:hover {
 
     .habilidades_logo_figma,
     .habilidades_logo_bbdd{
-        width: 30vw;
+        height: 15vh;
+        width: 25vw;
     }
-
 
     .boton_enlace{
         width: 80px;
@@ -809,8 +815,17 @@ button:hover {
         text-align: center;
     }
 
+    .habilidades__elemento{
+        width: 400px;
+    }
+
+    .habilidades_logo{
+        height: 90%;
+        width: 60vw;
+    }
     .habilidades_logo_figma,
     .habilidades_logo_bbdd{
+        height: 15vh;
         width: 20vw;
     }
 
@@ -1045,10 +1060,19 @@ button:hover {
         width: 100%;
     }
 
-    .habilidades_logo_figma,
+    .habilidades__elemento{
+        width: 450px;
+    }
+
+    .habilidades_logo{
+        height: 90%;
+        width: 60vw;
+    }
+
+    /* .habilidades_logo_figma,
     .habilidades_logo_bbdd{
         width: 13vw;
-    }
+    } */
 
     /* .presentacion{
         z-index: 10;
@@ -1061,6 +1085,15 @@ button:hover {
         text-align: center;
         width: 80px;
         padding-left: 3%;
+    }
+
+    .habilidades__elemento{
+        width: 600px;
+    }
+
+    .habilidades_logo{
+        height: 90%;
+        width: 60vw;
     }
 
     .habilidades_logo_figma,
@@ -1085,12 +1118,35 @@ button:hover {
 
 }
 
-@media (min-width:1281px) and (max-width:2560px){
+@media (min-width:1280px) and (max-width:1440px){
+    .habilidades__elemento{
+        align-items: center;
+        width: 700px;
+    }
+
+    .habilidades_logo{
+        height: 90%;
+        width: 40vw;
+    }
+
+}
+
+@media (min-width:1441px) and (max-width:2560px){
     .habilidades_logo_figma,
     .habilidades_logo_bbdd{
     height: 14vh;
     width: 6vw;
     border-radius: 10px;
-}
+    }
+
+    .habilidades__elemento{
+        align-items: center;
+        width: 500px;
+    }
+
+    .habilidades_logo{
+        height: 90%;
+        width: 20vw;
+    }
 
 }
