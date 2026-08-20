@@ -432,6 +432,10 @@ a:hover {
     align-items: center;
 }
 
+.certificado_img_cisco{
+        height: 200px;
+        width: 350px;
+}
 .certificado_img_ef{
         height: 200px;
         width: 500px;
@@ -632,6 +636,11 @@ button:hover {
         width: 250px;
     }
 
+    .certificado_img_cisco{
+        height: 200px;
+        width: 100px;
+    }
+
     .certificado_img_ef{
         height: 100px;
         width: 250px;
@@ -748,6 +757,11 @@ button:hover {
     .certificado_img{
         width: 250px;
     }
+
+    .certificado_img_cisco{
+        height: 100px;
+        width: 250px;
+}
 
     .certificado_img_ef{
         height: 100px;
