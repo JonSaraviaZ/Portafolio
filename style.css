@@ -182,7 +182,8 @@ a:hover {
 
 .sobre-mi__texto{
     font-size: 1.3rem;
-    text-align: center;
+    text-align: justify;
+
 }
 
 /*------------------------------ Sección de Habilidades ------------------------------*/
