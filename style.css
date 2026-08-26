@@ -648,7 +648,21 @@ button:hover {
         width: 100%;
     }
 
+    .proyectos_imagen_app{
+        height: 20vh;
+        margin-right: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     .proyectos_imagen_container{
+        flex-wrap: wrap;
+    }
+
+    .proyectos_imagen_app{
+        height: 40vh;
+        margin-right: 10px;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
@@ -680,7 +694,7 @@ button:hover {
 
     .certificado_img_cisco{
         height: 200px;
-        width: 100px;
+        width: 200px;
     }
 
     .certificado_img_ef{
@@ -772,6 +786,14 @@ button:hover {
         width: 100%;
     }
 
+    .proyectos_imagen_app{
+        height: 40vh;
+        margin-right: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
     .proyectos_texto{
         text-align: center;
     }
@@ -803,7 +825,7 @@ button:hover {
     .certificado_img_cisco{
         height: 100px;
         width: 250px;
-}
+    }
 
     .certificado_img_ef{
         height: 100px;
@@ -917,6 +939,14 @@ button:hover {
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .proyectos_imagen_app{
+        height: 40vh;
+        margin-right: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     
     .formacion__lista{
         display: flex;
@@ -931,8 +961,13 @@ button:hover {
         padding-left: 0px;
     }
 
-    .certificado_img_ef{
+    .certificado_img_cisco{
         height: 100px;
+        width: 250px;
+    }
+
+    .certificado_img_ef{
+        height: 200px;
         width: 250px;
     }
 
@@ -1006,6 +1041,14 @@ button:hover {
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .proyectos_imagen_app{
+        height: 40vh;
+        margin-right: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 
     .proyectos_imagen_edu_2{
         width: 90%;
@@ -1115,6 +1158,14 @@ button:hover {
         height: 100%;
         width: 100%;
     }
+
+    .proyectos_imagen_app{
+        height: 40vh;
+        margin-right: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
 
     .habilidades__elemento{
         width: 450px;
