@@ -694,7 +694,7 @@ button:hover {
     }
 
     .certificado_img_cisco{
-        height: 200px;
+        height: 120px;
         width: 200px;
     }
 
@@ -963,7 +963,7 @@ button:hover {
     }
 
     .certificado_img_cisco{
-        height: 100px;
+        height: 160px;
         width: 250px;
     }
 
@@ -1070,6 +1070,11 @@ button:hover {
 
     .contact__email__buttons{
         gap: 10px;
+    }
+
+    .certificado_img_cisco{
+        height: 200px;
+        width: 200px;
     }
 
     .certificado_img{
