@@ -46,11 +46,20 @@ function copyEmail() {
 }
 
 // Función para cambiar el modo de la página (oscuro o claro)
-function toggleMode() {
-    const body = document.body;
-    body.classList.toggle('dark-mode');
-}
-
+$('.checkbox').click(function() {
+    if ($(this).is(':checked')) {
+        //cambiamos a el modo oscuro
+        $('#theme').attr('href', 'dark.css');
+        //cambiamos el texto del botón
+        $('.texto_cambiante').text('Modo Claro');
+    } else {
+        //cambiamos a el modo claro
+        $('#theme').attr('href', 'light.css');
+        //cambiamos el texto del botón
+        $('.texto_cambiante').text('Modo Oscuro');
+    }
+    
+});
 
 
 

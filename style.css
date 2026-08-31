@@ -32,6 +32,7 @@
 
 }
 
+
 /* Keyframes para animación */
 @keyframes rotacion1 {
     from{
@@ -444,7 +445,8 @@ input:checked + .slider:before {
 .proyectos_imagen{
     height: 400px;
     /* ancho de la imagen al100% */
-    width: 100%
+    width: 100%;
+    border-radius: 5px;
 }
 
 .proyectos_imagen_app{
@@ -452,6 +454,7 @@ input:checked + .slider:before {
     margin-right: 10px;
     flex-direction: row;
     flex-wrap: wrap;
+    border-radius: 5px;
 }
 
 .proyectos_imagen_container_edu{
@@ -557,10 +560,12 @@ input:checked + .slider:before {
 .certificado_img_cisco{
         height: 200px;
         width: 350px;
+        border-radius: 5px;
 }
 .certificado_img_ef{
         height: 200px;
         width: 500px;
+        border-radius: 5px;
     }
 
 /*------------------------------ Sección de Contacto ---------------------------------*/
@@ -757,6 +762,7 @@ button:hover {
 
     .formacion__icono{
         width: 250px;
+        border-radius: 5px;
     }
 
     .certificados__contenedor{
@@ -770,16 +776,21 @@ button:hover {
     
     .certificado_img{
         width: 250px;
+        border-radius: 5px;
+        border-radius: 5px;
+
     }
 
     .certificado_img_cisco{
         height: 120px;
         width: 200px;
+        border-radius: 5px;
     }
 
     .certificado_img_ef{
         height: 100px;
         width: 250px;
+        border-radius: 5px;
     }
 
     .contact__email__buttons{
@@ -892,6 +903,7 @@ button:hover {
 
     .formacion__icono{
         width: 250px;
+        border-radius: 5px;
     }
 
     .certificados__contenedor{
@@ -900,6 +912,7 @@ button:hover {
     
     .certificado_img{
         width: 250px;
+        border-radius: 5px;
     }
 
     .certificado_img_cisco{
@@ -1053,6 +1066,7 @@ button:hover {
 
     .formacion__icono{
         width: 250px;
+        border-radius: 5px;
     }
 
     .contact__email__buttons{
@@ -1086,6 +1100,13 @@ button:hover {
 
     .navegacion{
         margin-left: 40px;
+    }
+
+    .switch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
     }
 
     .presentacion{
@@ -1230,6 +1251,13 @@ button:hover {
         align-items: end;
     }
 
+    .switch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
     .boton_enlace{
         text-align: center;
         width: 80px;
@@ -1273,6 +1301,21 @@ button:hover {
 
 /* Dispositivos entre 769px a 1280px */
 @media (min-width:769px) and (max-width:1280px){
+
+    .navegacion.active{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .switch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
     .boton_enlace{
         text-align: center;
         width: 80px;
@@ -1303,14 +1346,35 @@ button:hover {
         text-align: justify;
     }
 
+    .formacion__icono{
+        border-radius: 5px;
+    }
+
+
     .certificado_img{
         height: 200px;
         width: 500px;
+        border-radius: 5px;
     }
 
 }
 
 @media (min-width:1280px) and (max-width:1440px){
+
+    .navegacion.active{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .switch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
     .habilidades__elemento{
         align-items: center;
         width: 700px;
@@ -1321,9 +1385,32 @@ button:hover {
         width: 40vw;
     }
 
+    .formacion__icono{
+        border-radius: 5px;
+    }
+
+    .certificado_img{
+        border-radius: 5px;
+    }
+
 }
 
 @media (min-width:1441px) and (max-width:2560px){
+
+    .navegacion.active{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .switch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
     .habilidades_logo_figma,
     .habilidades_logo_bbdd{
     height: 14vh;
@@ -1339,6 +1426,14 @@ button:hover {
     .habilidades_logo{
         height: 90%;
         width: 20vw;
+    }
+
+    .formacion__icono{
+        border-radius: 5px;
+    }
+
+    .certificado_img{
+        border-radius: 5px;
     }
 
 }

@@ -1,0 +1,53 @@
+:root {
+    /* Colores base */
+    --color-de-fondo: #ffffff;
+    --color-de-link: #171717;
+    
+    /* Colores de borde*/
+    --color-de-borde:#202020;
+
+    /* Colores de sombra */
+    --color-de-sombra:#8b8b8b;
+
+    /* Color palabras del menú */
+    --color-de-palabras_menu:#171717;
+
+    /* Colores hover */
+    --color-fondo-hover-palabras-menu:#8b8b8b;
+    --color-hover-palabras-menu:#F5F5F5;
+
+    /* Colores de íconos del menú*/
+    --color--iconos--menu--1: #171717;
+    --color--iconos--menu--2: #f5f5f5;
+
+    /* Colores del boton light o dark mode */
+
+    --color-boton-light: #ffffff;
+    --color-boton-dark: #000000;
+
+}
+
+html, body {
+    background-color: var(--color-de-fondo);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    height: auto;
+    min-height: 100%;
+    line-height: 1.6;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-de-link);
+}
+
+a:hover {
+    text-decoration: none;
+
+}
