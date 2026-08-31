@@ -45,10 +45,11 @@ function copyEmail() {
     }, 2000);
 }
 
-
-
-
-
+// Función para cambiar el modo de la página (oscuro o claro)
+function toggleMode() {
+    const body = document.body;
+    body.classList.toggle('dark-mode');
+}
 
 
 
